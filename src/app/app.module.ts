@@ -12,6 +12,8 @@ import { PetsCarouselComponent } from './components/pets-carousel/pets-carousel.
 import { PetCardComponent } from './components/pet-card/pet-card.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
+import { PetsSearchComponent } from './components/pets-search/pets-search.component';
+import { PetsListComponent } from './components/pets-list/pets-list.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { TestimonialComponent } from './components/testimonial/testimonial.compo
     PetCardComponent,
     TestimonialsComponent,
     TestimonialComponent,
+    PetsSearchComponent,
+    PetsListComponent,
   ],
   imports: [
     BrowserModule,

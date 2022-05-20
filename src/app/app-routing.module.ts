@@ -4,11 +4,13 @@ import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login-adm/login-adm.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { PetsSearchComponent } from './components/pets-search/pets-search.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'aboutus', component: AboutusComponent},
   {path: 'adm', component: LoginComponent},
+  {path: 'pets-search', component: PetsSearchComponent},
   {path: '**', component: NotFoundComponent },
 ];
 
