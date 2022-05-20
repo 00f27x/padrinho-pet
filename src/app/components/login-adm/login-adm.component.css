@@ -1,0 +1,22 @@
+.body {
+    margin: 0;
+}
+.container-login{
+   width: 500px; 
+}
+
+.titulo {
+color: coral;
+width: 100;
+height: 100;
+display: flex;
+justify-content: center;
+}
+
+.ng-invalid.ng-touched {
+border-color: firebrick;
+}
+
+.ng-valid.ng {
+    border-color: green;
+}
