@@ -1,0 +1,17 @@
+.navbar{
+    background-color: #FF9C4C; 
+}
+
+.navbar-brand > img{
+    width: 100px;
+}
+.nav-login-input-group > .form-control{
+    max-width: 150px;
+    height: 30px;
+    background-color: #fff;
+}
+.separator{
+    background-color: chocolate;
+    padding: 1px;
+    height: 25px;
+}
