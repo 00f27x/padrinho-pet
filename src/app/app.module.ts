@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './components/home/home.component';
+import { PetsCarouselComponent } from './components/pets-carousel/pets-carousel.component';
+import { PetCardComponent } from './components/pet-card/pet-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    PetsCarouselComponent,
+    PetCardComponent
   ],
   imports: [
     BrowserModule,

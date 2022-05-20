@@ -6,7 +6,7 @@ interface User{
     senha: string;
 }
 
-export interface Administrator extends User{
+export interface Sponsor extends User{
     pets: Pet[];
     telefone: number;
     endereco: string;
