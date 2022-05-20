@@ -9,6 +9,8 @@ import { LoginComponent } from './components/login-adm/login-adm.component';
 import { HomeComponent } from './components/home/home.component';
 import { PetsCarouselComponent } from './components/pets-carousel/pets-carousel.component';
 import { PetCardComponent } from './components/pet-card/pet-card.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { RodapeComponent } from './components/rodape/rodape.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { PetCardComponent } from './components/pet-card/pet-card.component';
     AboutusComponent,
     PetsCarouselComponent,
     LoginComponent,
-    PetCardComponent
+    PetCardComponent,
+    BannerComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
