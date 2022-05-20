@@ -10,6 +10,8 @@ import { HomeComponent } from './components/home/home.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { PetsCarouselComponent } from './components/pets-carousel/pets-carousel.component';
 import { PetCardComponent } from './components/pet-card/pet-card.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { TestimonialComponent } from './components/testimonial/testimonial.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { PetCardComponent } from './components/pet-card/pet-card.component';
     NotFoundComponent,
     PetsCarouselComponent,
     LoginComponent,
-    PetCardComponent
+    PetCardComponent,
+    TestimonialsComponent,
+    TestimonialComponent,
   ],
   imports: [
     BrowserModule,
