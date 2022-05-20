@@ -7,14 +7,18 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from './components/login-adm/login-adm.component';
 import { HomeComponent } from './components/home/home.component';
+import { PetsCarouselComponent } from './components/pets-carousel/pets-carousel.component';
+import { PetCardComponent } from './components/pet-card/pet-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    LoginComponent,
     HomeComponent,
-    AboutusComponent
+    AboutusComponent,
+    PetsCarouselComponent,
+    LoginComponent,
+    PetCardComponent
   ],
   imports: [
     BrowserModule,
