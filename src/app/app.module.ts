@@ -10,10 +10,13 @@ import { HomeComponent } from './components/home/home.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { PetsCarouselComponent } from './components/pets-carousel/pets-carousel.component';
 import { PetCardComponent } from './components/pet-card/pet-card.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { RodapeComponent } from './components/rodape/rodape.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { PetsSearchComponent } from './components/pets-search/pets-search.component';
 import { PetsListComponent } from './components/pets-list/pets-list.component';
+
 
 @NgModule({
   declarations: [
@@ -25,6 +28,8 @@ import { PetsListComponent } from './components/pets-list/pets-list.component';
     PetsCarouselComponent,
     LoginComponent,
     PetCardComponent,
+    BannerComponent,
+    RodapeComponent
     TestimonialsComponent,
     TestimonialComponent,
     PetsSearchComponent,
