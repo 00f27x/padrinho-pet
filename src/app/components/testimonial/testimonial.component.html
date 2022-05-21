@@ -1,10 +1,10 @@
 <div class="container">
     <div class="card mx-auto b-0 my-5" style="width: 30rem;">
-        <img src="https://picsum.photos/500" class="card-img-top rounded-circle mx-auto" alt="...">
+        <img [src]="testimonial.img" class="card-img-top rounded-circle mx-auto" alt="...">
         <div class="card-body">
             <blockquote class="blockquote mb-0 mx-auto">
-                <p>Todo mês contribuo com 80% do meu salário à PadrinhosPet somente pra ver o sorriso dos labradores.</p>
-                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite>
+                <p>{{ testimonial.message }}</p>
+                <footer class="blockquote-footer">{{ testimonial.name }} in <cite title="Source Title"> {{ testimonial.media }}</cite>
                 </footer>
             </blockquote>
         </div>
