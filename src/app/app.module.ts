@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from './components/login-adm/login-adm.component';
 import { HomeComponent } from './components/home/home.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './components/home/home.component';
     NavbarComponent,
     LoginComponent,
     HomeComponent,
-    AboutusComponent
+    AboutusComponent,
+    ContactusComponent,
   ],
   imports: [
     BrowserModule,
