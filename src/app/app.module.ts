@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from './components/login-adm/login-adm.component';
 import { HomeComponent } from './components/home/home.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { PetsCarouselComponent } from './components/pets-carousel/pets-carousel.component';
 import { PetCardComponent } from './components/pet-card/pet-card.component';
@@ -15,6 +16,9 @@ import { RodapeComponent } from './components/rodape/rodape.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { Home3Component } from './components/home3/home3.component';
+import { PetsSearchComponent } from './components/pets-search/pets-search.component';
+import { PetsListComponent } from './components/pets-list/pets-list.component';
+
 
 
 @NgModule({
@@ -23,6 +27,7 @@ import { Home3Component } from './components/home3/home3.component';
     NavbarComponent,
     HomeComponent,
     AboutusComponent,
+    ContactusComponent,
     NotFoundComponent,
     PetsCarouselComponent,
     LoginComponent,
@@ -32,6 +37,8 @@ import { Home3Component } from './components/home3/home3.component';
     TestimonialsComponent,
     TestimonialComponent,
     Home3Component,
+    PetsSearchComponent,
+    PetsListComponent,
   ],
   imports: [
     BrowserModule,
