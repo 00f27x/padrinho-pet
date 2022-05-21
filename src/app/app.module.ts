@@ -29,7 +29,7 @@ import { PetsListComponent } from './components/pets-list/pets-list.component';
     LoginComponent,
     PetCardComponent,
     BannerComponent,
-    RodapeComponent
+    RodapeComponent,
     TestimonialsComponent,
     TestimonialComponent,
     PetsSearchComponent,

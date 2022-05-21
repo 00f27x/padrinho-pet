@@ -5,7 +5,7 @@ export interface Pet {
     sex: string;
     picture: string; 
     size: string[];
-    weight: string;
+    species: string;
     tags: string[];
     status: PetStatus[];
 }

@@ -1,0 +1,19 @@
+a{
+    background-color: #ff9c4c;
+    color: white;
+    border-color: none;
+}
+
+a:hover{
+    background-color: chocolate;
+}
+.btn-outline{
+    border: 1px solid #ff9c4c;
+    background-color: white;
+    color: #ff9c4c;
+}
+
+a:hover{
+    background-color: chocolate;
+    color: white;
+}
