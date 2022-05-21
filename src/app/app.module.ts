@@ -8,15 +8,30 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from './components/login-adm/login-adm.component';
 import { HomeComponent } from './components/home/home.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+import { PetsCarouselComponent } from './components/pets-carousel/pets-carousel.component';
+import { PetCardComponent } from './components/pet-card/pet-card.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { RodapeComponent } from './components/rodape/rodape.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { TestimonialComponent } from './components/testimonial/testimonial.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    LoginComponent,
     HomeComponent,
     AboutusComponent,
     ContactusComponent,
+    NotFoundComponent,
+    PetsCarouselComponent,
+    LoginComponent,
+    PetCardComponent,
+    BannerComponent,
+    RodapeComponent,
+    TestimonialsComponent,
+    TestimonialComponent,
   ],
   imports: [
     BrowserModule,
