@@ -13,7 +13,6 @@ export class LoginComponent implements OnInit {
   onSubmit(){
     alert(`Bem-vindo ${this.email}`);
   }
-
   constructor() { }
 
   ngOnInit(): void {

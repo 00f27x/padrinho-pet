@@ -17,6 +17,7 @@ button{
     background-color: coral;
     border: none;
     width: 200px;
+    margin-top: 20px;
 }
 button:hover{
     background-color: chocolate;
@@ -24,4 +25,11 @@ button:hover{
 a{
     text-decoration:none;
     color: gray;
+}
+.ng-invalid.ng-touched {
+    border-color:#dc3545
+}
+
+.ng-valid{
+    border-color: #198760;
 }
