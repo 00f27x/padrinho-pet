@@ -18,6 +18,7 @@ import { TestimonialComponent } from './components/testimonial/testimonial.compo
 import { Home3Component } from './components/home3/home3.component';
 import { PetsSearchComponent } from './components/pets-search/pets-search.component';
 import { PetsListComponent } from './components/pets-list/pets-list.component';
+import { CadastroComponent } from './components/cadastro/cadastro.component';
 
 
 
@@ -39,6 +40,7 @@ import { PetsListComponent } from './components/pets-list/pets-list.component';
     Home3Component,
     PetsSearchComponent,
     PetsListComponent,
+    CadastroComponent,
   ],
   imports: [
     BrowserModule,
