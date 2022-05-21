@@ -14,6 +14,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
+import { Home3Component } from './components/home3/home3.component';
 
 
 @NgModule({
@@ -27,9 +28,10 @@ import { TestimonialComponent } from './components/testimonial/testimonial.compo
     LoginComponent,
     PetCardComponent,
     BannerComponent,
-    RodapeComponent
+    RodapeComponent,
     TestimonialsComponent,
     TestimonialComponent,
+    Home3Component,
   ],
   imports: [
     BrowserModule,
