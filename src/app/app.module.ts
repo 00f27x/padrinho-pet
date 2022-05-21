@@ -19,6 +19,7 @@ import { Home3Component } from './components/home3/home3.component';
 import { PetsSearchComponent } from './components/pets-search/pets-search.component';
 import { PetsListComponent } from './components/pets-list/pets-list.component';
 import { FormsModule } from '@angular/forms';
+import { CadastroComponent } from './components/cadastro/cadastro.component';
 
 
 
@@ -40,6 +41,7 @@ import { FormsModule } from '@angular/forms';
     Home3Component,
     PetsSearchComponent,
     PetsListComponent,
+    CadastroComponent,
   ],
   imports: [
     BrowserModule,
