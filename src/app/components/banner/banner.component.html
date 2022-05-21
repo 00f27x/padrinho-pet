@@ -1,0 +1,23 @@
+<div class="banner">
+  <ngb-carousel *ngIf="images" >
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="images[0]" alt="Random first slide">
+    </div>
+    <div class="carousel-caption">
+      <h3>Arraste pro lado tenho uma surpresa pra você!</h3>
+      <a href="#" class="btn btn-sm btn-warning">Cadastre-se</a>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="images[1]" alt="Random second slide">
+    </div>
+    <div class="carousel-caption">
+      <h3>Prazer!</h3>
+      <p> Somos os SoulPets e estamos muito felizes em te ver por aqui!</p>
+    </div>
+  </ng-template>
+
+</ngb-carousel>
+</div>
