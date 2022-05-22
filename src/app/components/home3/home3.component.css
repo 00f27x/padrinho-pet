@@ -17,6 +17,29 @@ h6{
     width: 780px;
     text-align: center;
     color: rgba(88, 88, 88, 0.973);
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     font-size: 18px;
+}
+
+a{
+    background-color: #ff9c4c;
+    color: white;
+    border-color: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+a:hover{
+    background-color: chocolate;
+}
+.btn-outline{
+    border: 1px solid #ff9c4c;
+    background-color: white;
+    color: #ff9c4c;
+}
+
+a:hover{
+    background-color: chocolate;
+    color: white;
 }

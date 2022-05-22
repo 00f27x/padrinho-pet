@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login-adm/login-adm.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { PetsSearchComponent } from './components/pets-search/pets-search.component';
+import { PublicProfileComponent } from './components/public-profile/public-profile.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path : 'adm', component: LoginComponent},
   { path : 'contactus',component: ContactusComponent},
   { path : 'cadastro', component: CadastroComponent},
+  { path: 'public-profile', component: PublicProfileComponent},
   { path : '**', component: NotFoundComponent},
 
 ];
