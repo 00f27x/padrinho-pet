@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Adress } from 'src/app/models/adress';
+import { AdressService } from 'src/app/shared/services/adress.service';
 
 @Component({
   selector: 'app-cadastro',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastroComponent implements OnInit {
 
-  constructor() { }
+  adress!: Adress;
+  constructor(private adressService: AdressService) { }
 
   ngOnInit(): void {
+    this.adressService.getAdress().subscribe(console.log);
   }
 
 }

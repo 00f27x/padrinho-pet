@@ -20,8 +20,7 @@ import { PetsSearchComponent } from './components/pets-search/pets-search.compon
 import { PetsListComponent } from './components/pets-list/pets-list.component';
 import { FormsModule } from '@angular/forms';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
-
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -48,6 +47,7 @@ import { CadastroComponent } from './components/cadastro/cadastro.component';
     AppRoutingModule,
     NgbModule,
     FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
