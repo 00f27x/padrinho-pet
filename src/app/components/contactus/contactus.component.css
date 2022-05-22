@@ -22,3 +22,10 @@ button{
 button:hover{
     background-color: chocolate;
 }
+.ng-invalid.ng-touched {
+    border-color:#dc3545
+}
+
+.ng-valid{
+    border-color: #198760;
+}

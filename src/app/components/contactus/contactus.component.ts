@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactusComponent implements OnInit {
 
+  nome:string = '';
+  email:string= '';
+  assunto:string = '';
+
+  onSubmit(){
+    alert(`Mensagem enviada com sucesso, obrigada!  ${this.nome}`);
+  }
+
   constructor() { }
 
   ngOnInit(): void {
