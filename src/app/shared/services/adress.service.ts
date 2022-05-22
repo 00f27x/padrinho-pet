@@ -7,7 +7,7 @@ import { Adress } from 'src/app/models/adress';
 })
 export class AdressService {
 
-  private readonly API: string = "https://viacep.com.br/ws/53413030/json"
+  private readonly API: string = "https://viacep.com.br/ws/53240150/json"
 
   constructor(private http: HttpClient) { }
 

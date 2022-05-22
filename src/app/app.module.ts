@@ -18,9 +18,9 @@ import { TestimonialComponent } from './components/testimonial/testimonial.compo
 import { Home3Component } from './components/home3/home3.component';
 import { PetsSearchComponent } from './components/pets-search/pets-search.component';
 import { PetsListComponent } from './components/pets-list/pets-list.component';
-import { FormsModule } from '@angular/forms';
-import { CadastroComponent } from './components/cadastro/cadastro.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { CadastroModule } from './components/cadastro/cadastro.module';
 
 @NgModule({
   declarations: [
@@ -40,7 +40,6 @@ import { HttpClientModule } from '@angular/common/http';
     Home3Component,
     PetsSearchComponent,
     PetsListComponent,
-    CadastroComponent,
   ],
   imports: [
     BrowserModule,
@@ -48,6 +47,8 @@ import { HttpClientModule } from '@angular/common/http';
     NgbModule,
     FormsModule,
     HttpClientModule,
+    CadastroModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
