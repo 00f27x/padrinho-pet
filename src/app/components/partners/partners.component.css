@@ -1,0 +1,19 @@
+h3{
+    font-family: 'Patrick Hand';
+    font-size: 3em;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    color: rgba(77, 67, 67, 0.918);
+}
+
+img{
+    width: 150px;
+    margin: auto;
+  display: block;
+}
+
+div{
+    border:none;
+    margin-bottom: 100px;
+}
