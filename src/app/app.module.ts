@@ -17,6 +17,9 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { PetsSearchComponent } from './components/pets-search/pets-search.component';
 import { PetsListComponent } from './components/pets-list/pets-list.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { CadastroModule } from './components/cadastro/cadastro.module';
 import { FormsModule } from '@angular/forms';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
 import { PartnersComponent } from './components/partners/partners.component';
@@ -25,9 +28,6 @@ import { DescriptionComponent } from './components/description/description.compo
 import { HttpClientModule } from '@angular/common/http';
 import { Observable} from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-
-
-
 
 @NgModule({
   declarations: [
@@ -51,6 +51,7 @@ import { HttpClient } from '@angular/common/http';
     PublicProfileComponent,
     DescriptionComponent,
     
+
   ],
   imports: [
     BrowserModule,
@@ -58,9 +59,10 @@ import { HttpClient } from '@angular/common/http';
     NgbModule,
     FormsModule,
     HttpClientModule,
+    CadastroModule,
+    ReactiveFormsModule,
     Observable, 
     HttpClient
-    
   ],
   providers: [],
   bootstrap: [AppComponent]
