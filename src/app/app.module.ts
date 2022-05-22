@@ -15,12 +15,15 @@ import { BannerComponent } from './components/banner/banner.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
-import { Home3Component } from './components/home3/home3.component';
 import { PetsSearchComponent } from './components/pets-search/pets-search.component';
 import { PetsListComponent } from './components/pets-list/pets-list.component';
 import { FormsModule } from '@angular/forms';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
 import { PublicProfileComponent } from './components/public-profile/public-profile.component';
+import { DescriptionComponent } from './components/description/description.component';
+import { HttpClientModule } from '@angular/common/http';
+import { Observable} from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 
 
 
@@ -39,17 +42,22 @@ import { PublicProfileComponent } from './components/public-profile/public-profi
     RodapeComponent,
     TestimonialsComponent,
     TestimonialComponent,
-    Home3Component,
     PetsSearchComponent,
     PetsListComponent,
     CadastroComponent,
     PublicProfileComponent,
+    DescriptionComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     FormsModule,
+    HttpClientModule,
+    Observable, 
+    HttpClient
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
