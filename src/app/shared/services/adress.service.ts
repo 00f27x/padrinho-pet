@@ -7,20 +7,16 @@ import { Adress } from 'src/app/models/adress';
 })
 export class AdressService {
 
-  private cep: string = "";
   private baseUrl!: string;
+  address!: Adress;
 
   constructor(private http: HttpClient) { }
 
   setCep(cep: string){
-    this.cep = cep;
-    this.baseUrl = `https://viacep.com.br/ws/${this.cep}/json`; 
+    this.baseUrl = `https://viacep.com.br/ws/${cep}/json`; 
   }
-  getCep(){
-    return this.cep;
-  }
+
   getAdress(){
     return this.http.get<Adress>(this.baseUrl);
   }
-
 }

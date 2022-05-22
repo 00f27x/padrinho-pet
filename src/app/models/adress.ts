@@ -4,7 +4,7 @@ export interface Adress {
     complemento: string,
     bairro: string,
     localidade: string,
-    up: string,
+    uf: string,
     ibge: string,
     gia: string,
     ddd: string,
