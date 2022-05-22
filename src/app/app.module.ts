@@ -15,12 +15,19 @@ import { BannerComponent } from './components/banner/banner.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
-import { Home3Component } from './components/home3/home3.component';
 import { PetsSearchComponent } from './components/pets-search/pets-search.component';
 import { PetsListComponent } from './components/pets-list/pets-list.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CadastroModule } from './components/cadastro/cadastro.module';
+import { FormsModule } from '@angular/forms';
+import { CadastroComponent } from './components/cadastro/cadastro.component';
+import { PartnersComponent } from './components/partners/partners.component';
+import { PublicProfileComponent } from './components/public-profile/public-profile.component';
+import { DescriptionComponent } from './components/description/description.component';
+import { HttpClientModule } from '@angular/common/http';
+import { Observable} from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -37,9 +44,14 @@ import { CadastroModule } from './components/cadastro/cadastro.module';
     RodapeComponent,
     TestimonialsComponent,
     TestimonialComponent,
-    Home3Component,
     PetsSearchComponent,
     PetsListComponent,
+    CadastroComponent,
+    PartnersComponent,
+    PublicProfileComponent,
+    DescriptionComponent,
+    
+
   ],
   imports: [
     BrowserModule,
@@ -49,6 +61,8 @@ import { CadastroModule } from './components/cadastro/cadastro.module';
     HttpClientModule,
     CadastroModule,
     ReactiveFormsModule,
+    Observable, 
+    HttpClient
   ],
   providers: [],
   bootstrap: [AppComponent]
