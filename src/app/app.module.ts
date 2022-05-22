@@ -20,6 +20,7 @@ import { PetsSearchComponent } from './components/pets-search/pets-search.compon
 import { PetsListComponent } from './components/pets-list/pets-list.component';
 import { FormsModule } from '@angular/forms';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
+import { PartnersComponent } from './components/partners/partners.component';
 
 
 
@@ -42,6 +43,7 @@ import { CadastroComponent } from './components/cadastro/cadastro.component';
     PetsSearchComponent,
     PetsListComponent,
     CadastroComponent,
+    PartnersComponent,
   ],
   imports: [
     BrowserModule,
