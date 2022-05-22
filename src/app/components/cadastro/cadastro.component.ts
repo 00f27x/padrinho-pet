@@ -18,7 +18,7 @@ export class CadastroComponent implements OnInit {
     private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
-    this.adressService.getAdress().subscribe(console.log)
+  
 
     this.form = this.formBuilder.group({
         nome: ["",Validators.required, Validators.minLength(3)],
@@ -40,7 +40,11 @@ export class CadastroComponent implements OnInit {
   }
 
   verifyCep(){
-    this.form.value.endereco.cep.length = 8 ? console.log("aqui"):console.log("aqui tmb");
+    if (this.form.value.endereco.cep.length == 8){
+      
+      this.adressService.setCep(this.form.value.endereco.cep);
+      this.adressService.getAdress().subscribe(console.log);
+    }
   }
   onSubmit() {
     console.log("foi");

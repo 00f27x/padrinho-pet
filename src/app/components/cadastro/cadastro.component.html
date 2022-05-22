@@ -29,8 +29,8 @@
   <div formGroupName="endereco">
     <div class="row mt-4 form-group">
       <div class="col">
-        <label for="validationSubject" (keyup)="verifyCep()">Cep</label>
-        <input type="email" class="form-control" placeholder="ex: 00000000" formControlName="cep">
+        <label for="validationSubject">Cep</label>
+        <input type="email" class="form-control" placeholder="ex: 00000000" (keyup)="verifyCep()" formControlName="cep">
       </div>
       <div class="col form-group">
         <label for="validationSubject">Estado</label>
