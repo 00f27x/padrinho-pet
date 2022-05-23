@@ -22,10 +22,9 @@ export class PetsListComponent implements OnInit {
         console.log(this.pets)
       });
     });*/
-    
+
     this.petsProvider.getToken().subscribe(()=>{
       this.observable$ = this.petsProvider.getPets()
     });
     }
-
 }
