@@ -37,22 +37,26 @@ export class CadastroComponent implements OnInit {
     });
   }
 
-  verifyCep() {
-    if (this.form.value.endereco.cep.length == 8) {
-      this.addressService.setCep(this.form.value.endereco.cep);
+  verifyCep(event: any) {
+   
+    if (event.target.value.length == 8) {
+
+      this.addressService.setCep(event.target.value);
 
       this.addressService.getAddress().subscribe((value: Address) => {
         this.address = value;
+
+        this.form.patchValue({
+          endereco:{
+            cidade: this.address.localidade,
+            estado: this.address.uf,
+            bairro: this.address.bairro,
+            logradouro: this.address.logradouro          
+          }
+        })
       });
       
-      this.form.patchValue({
-        endereco:{
-          cidade: this.address.localidade,
-          estado: this.address.uf,
-          bairro: this.address.bairro,
-          logradouro: this.address.logradouro          
-        }
-      })
+      
     }
   }
 }
