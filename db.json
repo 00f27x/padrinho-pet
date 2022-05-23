@@ -1,0 +1,17 @@
+{
+    "register":[
+        {
+            "id": 1,
+            "nome": "Maria Lucia", 
+            "email": "marialucia@perice.com",
+            "telefone": "15 99999-9999",
+            "senha":"123456",
+            "cofirmacaoDeSenha":"123456",
+            "cep":"18204-050",
+            "estado":"São Pualo",
+            "cidade":"São Paulo",
+            "bairro":"Tulipas verdes",
+            "logradouro":"av das flores floridas0,"
+        }
+    ]
+}
