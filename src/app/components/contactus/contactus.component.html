@@ -15,14 +15,14 @@
   <div class="row mt-4">
     <div class="col">
       <label for="validationSubject">Assunto</label>
-      <input #assuntoInp="ngModel"[(ngModel)]="assunto" type="text" class="form-control" id="assunto" name="assunto" placeholder="assunto..." >
+      <input #assuntoInp="ngModel"[(ngModel)]="assunto" type="text" class="form-control" id="assunto" name="assunto" placeholder="assunto..." required>
       <small *ngIf="assuntoInp.touched && assuntoInp.invalid" id="assunto" class="form-text text-muted">O campo é Inválido</small>
     </div>
 </div>
 <div class="row mt-4">
-  <textarea #assuntoInp="ngModel"[(ngModel)]="assunto" class="mx-auto form-control" name="" id="" cols="5" rows="5"></textarea>
+  <textarea #msgInp="ngModel"[(ngModel)]="mensagem" class="mx-auto form-control" name="msg" id="msg" cols="5" rows="5" required></textarea>
   <div class="d-flex justify-content-center">
-    <small *ngIf="assuntoInp.touched && assuntoInp.invalid" id="assunto" class="form-text text-muted">O campo é Inválido</small>
+    <small *ngIf="msgInp.touched && msgInp.invalid" id="msg" class="form-text text-muted">O campo é Inválido</small>
      <button class="btn btn-warning mt-4" [disabled]="loginForm.invalid" type="submit">Enviar</button>
   </div>
 </div>
