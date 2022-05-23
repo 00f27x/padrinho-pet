@@ -1,13 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&family=Roboto+Slab:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
 .titulo {
-    
+    font-family: 'Patrick Hand';
     margin-top: 30px;
     color: #FF9C4C; 
     font-size: 50px;
 }
+ img{
+     width: 600px;
+ }
 
-.titulo2 {
-    margin-bottom: 30px;
-    margin-top: 30px;
-    color: #0a0a0a81;
-    font-size: 30px;
+
+.borda{
+    border: 15px solid #ebb96a;
+       
+}
+
+
+h3{
+    font-family: 'Patrick Hand';
+    font-size: 2em;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: rgba(77, 67, 67, 0.918);
+    
+}
+
+.text-justify {
+    text-align: justify;
+
 }
