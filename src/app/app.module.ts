@@ -15,7 +15,6 @@ import { BannerComponent } from './components/banner/banner.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
-import { Home3Component } from './components/home3/home3.component';
 import { PetsSearchComponent } from './components/pets-search/pets-search.component';
 import { PetsListComponent } from './components/pets-list/pets-list.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -24,6 +23,7 @@ import { PublicProfileComponent } from './components/public-profile/public-profi
 import { PartnersComponent } from './components/partners/partners.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LocatorService } from './shared/services/locator.service';
+import { DescriptionComponent } from './components/description/description.component';
 
 
 
@@ -43,12 +43,12 @@ import { LocatorService } from './shared/services/locator.service';
     RodapeComponent,
     TestimonialsComponent,
     TestimonialComponent,
-    Home3Component,
     PetsSearchComponent,
     PetsListComponent,
     CadastroComponent,
     PublicProfileComponent,
     PartnersComponent,
+    DescriptionComponent,
   ],
   imports: [
     BrowserModule,
