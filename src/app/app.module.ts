@@ -21,8 +21,10 @@ import { PetsListComponent } from './components/pets-list/pets-list.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
 import { PublicProfileComponent } from './components/public-profile/public-profile.component';
+import { PartnersComponent } from './components/partners/partners.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LocatorService } from './shared/services/locator.service';
+
 
 
 
@@ -46,6 +48,7 @@ import { LocatorService } from './shared/services/locator.service';
     PetsListComponent,
     CadastroComponent,
     PublicProfileComponent,
+    PartnersComponent,
   ],
   imports: [
     BrowserModule,
