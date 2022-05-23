@@ -18,9 +18,11 @@ import { TestimonialComponent } from './components/testimonial/testimonial.compo
 import { Home3Component } from './components/home3/home3.component';
 import { PetsSearchComponent } from './components/pets-search/pets-search.component';
 import { PetsListComponent } from './components/pets-list/pets-list.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
 import { PublicProfileComponent } from './components/public-profile/public-profile.component';
+import { HttpClientModule } from '@angular/common/http';
+import { LocatorService } from './shared/services/locator.service';
 
 
 
@@ -50,8 +52,10 @@ import { PublicProfileComponent } from './components/public-profile/public-profi
     AppRoutingModule,
     NgbModule,
     FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [LocatorService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
