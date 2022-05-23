@@ -8,6 +8,7 @@ interface User{
 }
 
 export interface Sponsor extends User{
+    id?: number;
     pets: Pet[];
     phone: number;
     address: Address[];

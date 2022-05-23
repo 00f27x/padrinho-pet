@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Address } from 'src/app/models/address';
 import { LocatorService } from 'src/app/shared/services/locator.service';
+import { NewRegisterService } from 'src/app/shared/services/new-register.service';
 
 @Component({
   selector: 'app-cadastro',
@@ -14,7 +15,7 @@ export class CadastroComponent implements OnInit {
   form!: FormGroup;
   address!: Address;
 
-  constructor(private addressService: LocatorService, private formBuilder: FormBuilder) { }
+  constructor(private addressService: LocatorService, private formBuilder: FormBuilder, private register:NewRegisterService) { }
 
   ngOnInit(): void {
 
@@ -59,4 +60,11 @@ export class CadastroComponent implements OnInit {
       
     }
   }
+onSubmit(){
+  if(this.form.valid){
+    this.register.register(this.form.value); 
+    return alert("Efetuado com sucesso!");
+    }
+  }
+
 }
