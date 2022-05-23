@@ -1,6 +1,8 @@
 <div class="card m-3 shadow" style="width: 15rem;">
   <div *ngIf="pet.primary_photo_cropped ; else default_image">
-    <img class="card-img-top" [src]="pet.primary_photo_cropped.small" alt="Card image cap">
+    <div [style.background-image]="'url('+pet.primary_photo_cropped.small+')'"
+      style="width: 15rem; height: 15rem;">
+    </div>
   </div>
   <div class="card-body">
     <h5 class="card-title">{{pet.name}}</h5>
@@ -16,5 +18,5 @@
   <p>Não tenho uma descrição, mas prometo que sou legal!</p>
 </ng-template>
 <ng-template #default_image>
-  <img class="card-img-top p-5" src="../../../assets/default-image.png" alt="Card image cap" id="idCardImg">
+  <img class="card-img-top p-5" src="../../../assets/default-image.png" alt="Card image cap" id="idCardImgDefault">
 </ng-template>
