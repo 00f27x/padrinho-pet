@@ -17,7 +17,7 @@ a:hover{
     background-color: chocolate;
     color: white;
 }
-#idCardImg{
+#idCardImgDefault{
     background: rgb(255,208,170);
 background: linear-gradient(148deg, rgba(255,208,170,1) 0%, rgba(255,181,120,1) 17%, rgba(247,247,247,1) 100%);
 }
