@@ -1,10 +1,5 @@
-<div id="idPetsList">
-    <app-pet-card></app-pet-card>
-    <app-pet-card></app-pet-card>
-    <app-pet-card></app-pet-card>
-    <app-pet-card></app-pet-card>
-    <app-pet-card></app-pet-card>
-    <app-pet-card></app-pet-card>
+<div id="idPetsList" *ngIf="observable$ | async as obj">
+    <app-pet-card [pet]="pet" *ngFor="let pet of obj.animals" ></app-pet-card>
 </div>
 <div>
     <nav aria-label="Page navigation example">
