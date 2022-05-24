@@ -141,12 +141,11 @@ export class UsersProviderService {
 
   ];
 
-  checkCredentials(email: string, password: string): number | Sponsor{
-    console.log(email)
+  checkCredentials(email: string, password: string): number | string{
     for (const sponsor of this.sponsors) {
       if(sponsor.email == email){
         if(sponsor.password == password){
-          return sponsor;
+          return sponsor.name;
         }else{
           return 1;
         }
