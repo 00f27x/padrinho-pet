@@ -1,6 +1,12 @@
 # PadrinhoPet
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+Projeto desenvolvido para avaliação da disciplina de Angular no curso de Java Full Stack da SoulCode Academy, na turma BCW18.
+O projeto consiste em uma aplicação Angular que faz buscas em uma API de animais disponíveis para adoção. 
+
+
+## Usage
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3. De
 
 ## Development server
 
