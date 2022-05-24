@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&family=Roboto+Slab:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+h3{
+    font-family: 'Patrick Hand';
+    font-size: 3em;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: rgba(77, 67, 67, 0.918);
+    
+}
+h6{
+    font-family: 'Roboto Flex';
+    height: auto;
+    margin: auto;
+    line-height: 35px;
+    width: 780px;
+    text-align: center;
+    color: rgba(88, 88, 88, 0.973);
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+a{
+    background-color: #ff9c4c;
+    color: white;
+    border-color: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+a:hover{
+    background-color: chocolate;
+}
+.btn-outline{
+    border: 1px solid #ff9c4c;
+    background-color: white;
+    color: #ff9c4c;
+}
+
+a:hover{
+    background-color: chocolate;
+    color: white;
+}

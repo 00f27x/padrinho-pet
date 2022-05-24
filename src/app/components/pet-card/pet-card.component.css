@@ -1,0 +1,23 @@
+a{
+    background-color: #ff9c4c;
+    color: white;
+    border-color: none;
+}
+
+a:hover{
+    background-color: chocolate;
+}
+.btn-outline{
+    border: 1px solid #ff9c4c;
+    background-color: white;
+    color: #ff9c4c;
+}
+
+a:hover{
+    background-color: chocolate;
+    color: white;
+}
+#idCardImgDefault{
+    background: rgb(255,208,170);
+background: linear-gradient(148deg, rgba(255,208,170,1) 0%, rgba(255,181,120,1) 17%, rgba(247,247,247,1) 100%);
+}

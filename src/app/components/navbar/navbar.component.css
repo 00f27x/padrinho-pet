@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;800&display=swap');
 .navbar{
-    background-color: #FF9C4C; 
+    background-color: #FF9C4C;
+    font-family: 'Nunito';
+    font-weight: 600; 
+    font-size: medium;
+    
+    
 }
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.959);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.973);
+}
+
 
 .navbar-brand > img{
     width: 100px;

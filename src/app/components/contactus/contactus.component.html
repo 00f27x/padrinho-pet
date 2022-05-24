@@ -1,0 +1,30 @@
+<form #loginForm="ngForm" (ngSubmit)= "onSubmit()" class="container my-5" style="height: 70vh;">
+  <h1 class="titulo mb-3 text-center">Fale Conosco</h1>
+  <div class="row mt-4">
+    <div class="col">
+      <label for="validationSubject">Nome</label>
+      <input #nomeInp="ngModel"[(ngModel)]="nome"type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome" required>
+      <small *ngIf="nomeInp.touched && nomeInp.invalid" id="nome" class="form-text text-muted">O campo é Inválido</small>
+    </div>
+    <div class="col">
+      <label for="validationSubject">Email</label>
+      <input #emailInp="ngModel"[(ngModel)]="email" type="email" class="form-control" id="email" name="email" placeholder="exemplo@email.com" required>
+      <small *ngIf="emailInp.touched && emailInp.invalid" id="email" class="form-text text-muted">O campo é Inválido</small>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col">
+      <label for="validationSubject">Assunto</label>
+      <input #assuntoInp="ngModel"[(ngModel)]="assunto" type="text" class="form-control" id="assunto" name="assunto" placeholder="assunto..." required>
+      <small *ngIf="assuntoInp.touched && assuntoInp.invalid" id="assunto" class="form-text text-muted">O campo é Inválido</small>
+    </div>
+</div>
+<div class="row mt-4">
+  <textarea #msgInp="ngModel"[(ngModel)]="mensagem" class="mx-auto form-control" name="msg" id="msg" cols="5" rows="5" required></textarea>
+  <div class="d-flex justify-content-center">
+    <small *ngIf="msgInp.touched && msgInp.invalid" id="msg" class="form-text text-muted">O campo é Inválido</small>
+     <button class="btn btn-warning mt-4" [disabled]="loginForm.invalid" type="submit">Enviar</button>
+  </div>
+</div>
+
+</form>

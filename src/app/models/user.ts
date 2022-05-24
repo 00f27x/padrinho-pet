@@ -1,15 +1,16 @@
+import { Address } from "./address";
 import { Pet } from "./pet";
 
 interface User{
-    nome: string;
+    name: string;
     email: string;
-    senha: string;
+    password: string;
 }
 
 export interface Sponsor extends User{
-    pets: Pet[];
-    telefone: number;
-    endereco: string;
+    pets?: Pet[];
+    phone: number;
+    address: Address;
 }
 
 export interface Administrator extends User{}

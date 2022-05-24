@@ -13,10 +13,23 @@ display: flex;
 justify-content: center;
 }
 
+button{
+    background-color: coral;
+    border: none;
+    width: 200px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: chocolate;
+}
+a{
+    text-decoration:none;
+    color: gray;
+}
 .ng-invalid.ng-touched {
-border-color: firebrick;
+    border-color:#dc3545
 }
 
-.ng-valid.ng {
-    border-color: green;
+.ng-valid{
+    border-color: #198760;
 }

@@ -1,11 +1,12 @@
-import { PetStatus } from "./PetStatus";
-
 export interface Pet {
     name: string;
-    sex: string;
-    picture: string; 
+    gender: string;
+    primary_photo_cropped: {
+        small: string;
+    };
     size: string[];
-    weight: string;
+    description: string;
+    species: string;
     tags: string[];
-    status: PetStatus[];
+    status: string[];
 }
